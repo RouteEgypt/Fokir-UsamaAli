@@ -1,0 +1,397 @@
+/*======= General =======*/
+
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 100%;
+    max-width: 970px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    width: 100%;
+    max-width: 750px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+    max-width: 420px;
+  }
+
+  .sec-title {
+    font-size: 30px;
+  }
+}
+
+/*======= Main Interface Section =======*/
+
+@media screen and (max-width: 992px) {
+  .nav .container {
+    padding-inline: 30px;
+  }
+  .nav ul li a {
+    padding-inline: 8px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav .container {
+    padding-block: 15px;
+  }
+  .nav ul {
+    display: none;
+  }
+  .nav .logo {
+    width: fit-content;
+    float: left;
+  }
+  .nav .burger-icon {
+    display: block;
+  }
+  .main-content h1 {
+    font-size: 38px;
+    padding-block: 5px;
+  }
+
+  .main-content p {
+    font-size: 22px;
+  }
+
+  .main-content .job-title {
+    font-size: 19px;
+    font-weight: 600;
+  }
+}
+
+/*======= About Section =======*/
+
+@media screen and (max-width: 1200px) {
+  .about {
+    padding: 70px 50px;
+  }
+  .image-box {
+    width: calc(33% - 25px);
+    max-width: 266px;
+    margin-right: 15px;
+  }
+  .about-content {
+    width: calc(67% - 25px);
+    max-width: 560px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .about {
+    padding: 50px 25px;
+  }
+  .image-box {
+    width: calc(50% - 20px);
+    max-width: none;
+    margin: 0;
+  }
+
+  .image-box::before {
+    display: none;
+  }
+
+  .about-content {
+    width: calc(50% + 20px);
+  }
+
+  .details div {
+    width: 40%;
+    margin-bottom: 5px;
+  }
+
+  .details .bigger {
+    width: 60%;
+  }
+
+  .details div h3 {
+    font-size: 13px;
+  }
+
+  .details div p {
+    font-size: 13px;
+  }
+
+  .about-content button {
+    margin-top: 10px;
+  }
+
+  .about-content .brief {
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about {
+    padding: 60px 30px;
+  }
+
+  .image-box,
+  .about-content {
+    width: 100%;
+    max-width: 420px;
+    padding-top: 0;
+    margin: 0 auto 30px;
+    float: none;
+  }
+
+  .image-box {
+    padding-top: 0;
+  }
+
+  .about-content {
+    padding-left: 0;
+  }
+
+  .details div,
+  .details .bigger {
+    float: none;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .details div h3 {
+    font-size: 16px;
+  }
+  .details div p {
+    font-size: 16px;
+  }
+  .about-content .btn {
+    padding: 15px;
+    font-size: 15px;
+  }
+}
+
+/*======= Our Services Section =======*/
+
+@media screen and (max-width: 1200px) {
+  .service-item h3 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .service-item {
+    width: 50%;
+  }
+  .service-item h3 {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .services .container {
+    width: fit-content;
+    margin: 0 auto;
+  }
+  .service-item {
+    float: none;
+    width: 100%;
+    max-width: 400px;
+  }
+}
+
+/*======= Our Portfolio Section =======*/
+
+@media screen and (max-width: 992px) {
+  .portfolio .container {
+    width: 80%;
+  }
+  .gallery .card {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .portfolio .container {
+    width: fit-content;
+    margin: 0 auto;
+  }
+
+  .gallery .card {
+    width: 100%;
+    float: none;
+    max-width: 420px;
+    padding: 10px 0;
+  }
+
+  .categories {
+    margin: 40px auto 20px;
+  }
+}
+
+@media screen and (max-width: 398px) {
+  .categories {
+    width: 100%;
+  }
+  .categories li {
+    width: 50%;
+    text-align: center;
+    padding-bottom: 8px;
+  }
+}
+
+/*======= Our Projects Section =======*/
+
+@media screen and (max-width: 768px) {
+  .projects {
+    padding-block: 40px;
+  }
+
+  .projects .container {
+    width: fit-content;
+    margin: 0 auto;
+  }
+
+  .project-detial {
+    width: 100%;
+    float: none;
+    max-width: 420px;
+    margin-bottom: 30px;
+  }
+
+  .last {
+    margin-bottom: 0px;
+  }
+}
+
+/*======= Testimonial Section =======*/
+
+@media screen and (max-width: 1200px) {
+  .testimonial .card .image {
+    width: 20%;
+  }
+  .testimonial .card .image img {
+    top: 0;
+  }
+  .testimonial .card .content {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .testimonial .container .card {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .testimonial {
+    height: auto;
+    padding-block: 50px;
+  }
+
+  .testimonial .container .card {
+    min-width: 420px;
+    padding: 35px 15px 15px;
+  }
+
+  .testimonial .card .image {
+    width: 110px;
+    height: auto;
+    float: none;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .testimonial .card .image img {
+    position: static;
+  }
+
+  .testimonial .card .content {
+    width: 100%;
+    float: none;
+    margin-top: 120px;
+    isolation: isolate;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .testimonial {
+    padding: 50px 0px;
+  }
+  .testimonial .container .card {
+    width: 100%;
+    min-width: fit-content;
+  }
+}
+
+/*======= Our Blog Section =======*/
+
+@media screen and (max-width: 1200px) {
+  .blog {
+    height: auto;
+    padding-block: 40px;
+  }
+  .blog .container {
+    width: 970px;
+  }
+  .post-img iframe {
+    height: 165px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .blog .container {
+    width: 750px;
+  }
+  .post-img iframe {
+    height: 118px;
+  }
+  .post-content {
+    padding: 15px;
+  }
+  .post-content .date {
+    font-size: 14px;
+    padding-bottom: 12px;
+  }
+  .post-content h3 {
+    font-size: 18px;
+    padding-bottom: 12px;
+  }
+  .post-content .description {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .blog .container {
+    width: 100%;
+    max-width: 420px;
+  }
+  .post-container {
+    width: 100%;
+    padding-inline: 10px;
+    padding-bottom: 35px;
+    float: none;
+  }
+  .post-img iframe {
+    height: 190px;
+  }
+}
+
+/*======= Contact Us Section =======*/
+
+@media screen and (max-width: 992px) {
+  .contact form {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact {
+    padding-block: 40px;
+  }
+  .contact .container {
+    padding-inline: 0;
+  }
+  .contact form input {
+    float: none;
+    width: 100%;
+  }
+}
